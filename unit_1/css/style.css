@@ -1,6 +1,6 @@
 body{
-	color: white;
-	background-color: #dd2222;
-	font-family: Arial, sans-serif;
-
+	background-color: black;
+}
+h1, p{
+	color: gold;
 }
