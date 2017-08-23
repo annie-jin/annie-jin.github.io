@@ -1,7 +1,7 @@
 body{
 	text-align: center;
 	background-color: #000;
-	font-family: "Circular","Helvetica",sans-serif;
+	font-family: "Helvetica",sans-serif;
 }
 .beach_bg{
 	background: url("http://tse4.mm.bing.net/th?id=ORT.TH_470633631&pid=1.12&eid=G.470633631");
@@ -11,9 +11,9 @@ h1{
 	color: #FFF;
 	font-size: 25px;
 	width: 100%;
-	height: 150px;
+	height: 175px;
 	text-align: left;
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-left: 30px;
 	margin-top: -10px;
 	font-family: Arial;
@@ -25,22 +25,23 @@ p{
 	width: 100%;
 	margin: 0 auto 70px;
 }
-.button{
+#atf_button{
 	height: 50px;
-	padding-top: 30px;
-	width: 200px;
-	color: black;
-	background: white;
-	font-size: 50px;
-	margin: 10px auto 10px;
-	font-size: 19px;
-	border-radius: 25px;
+	width: 250px;
+	background: transparent;
+	border: 5px solid white;
+	margin: 0 auto;
+	padding-top: 33px;
+	font-size: 23px;
+	border-radius: 20px;
+	display: block;
 }
 a{
-	color: black;
+	color: white;
 	text-decoration: none;
+	text-shadow: 2px 2px 5px black;
 }
-.space{
+#space{
 	height:100px;
 	margin: 30px;
 }
@@ -51,7 +52,7 @@ ul{
 	font-size: 20px;
 	color: white;
 }
-.contact{
+#contact{
 	font-size: 12px;
 	height: 10px;
 }
