@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Coda');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	text-align: center;
+	background-color: #fff;
+	font-family: "Coda", Helvetica, sans-serif;
+}
+header{
+		background-color: #59C1F0;
+		color: #fff;
+}
+.logo{
+	display: inline-block;
+	float: left;
+	margin: 0 50px auto;
+	padding: 10px;
+}
+nav{
+	float:right;
+	display: inline-block;
+	margin: 25px 50px auto;
+	font-family: Helvetica, sans-serif;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #1079c3;
+}
+
+#title{
+	font-size: 50px;
+	padding: 125px 0 35px;
+}
+#atf_button{
+	height: 75px;
+	width: 300px;
+	background: transparent;
+	border: 5px solid white;
+	margin: 0 auto;
+	padding-top: 18px;
+	font-size: 23px;
+	border-radius: 20px;
+	display: inline-block;
+}
+.hero_image{
+	background: url("../images/travel.gif"); /*image credit to MotionAuthors*/
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+}
+.buttons{
+	color: white;
+	text-decoration: none;
+}
+.Step1, .Step2, .Step3{
+	display: inline-block;
+	margin: 0 50px;
+	width: 250px;
+}
+figure{
+	display: inline-block;
+}
+figcaption{
+	display: inline;
+}
+.city-image{
+	opacity: .5;
+}
+.city-image:hover {
+	opacity: 1;
+}
+h1{
+	margin: 100px auto 60px;
+	font-size: 35px;
+}
+h4{
+	font-size: 20px;
+	margin: 10px 0 10px;
+}
+figcaption{
+	color: black;
+	font-size: 14px;
+	margin: 10px auto;
+	font-family: Helvetica, sans-serif;
+}
+#mission{
+	font-size: 20px;
+	color: #000;
+	width: 800px;
+	margin: 20px auto 35px;
+	font-family: Helvetica, sans-serif;
+	font-weight: lighter;
+	line-height: 1.5em;
+}
+#learnmore_button{
+	height: 55px;
+	width: 200px;
+	background: #1079c3;
+	margin: 0 auto;
+	padding-top: 14px;
+	font-size: 17px;
+	border-radius: 10px;
+	display: inline-block;
+}
+footer{
+	background-color: #527078;
+	color: white;
+	text-align: left;
+	font-family: Helvetica, sans-serif;
+}
+footer a{
+	color: white;
+	font-size: 13px;
+	margin: 30px auto 10px;
+	padding: 30px;
+	font-weight: lighter;
+}
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+#AboutUs, #Social, #Legals{
+	display: inline-block;
+	padding: 50px 0;
+	margin: 0 40px;
+}
+h5{
+	padding: 0 0 10px 30px;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+#footer_copyright{
+	background-color: black;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 10px;
+}
+#copyright{
+	display: inline-block;	
+}
